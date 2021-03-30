@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <style>
+        .fondo {
+            background-color: #b3b3b3;
+            }
+        .gameover{
+          width: 100%;
+          text-align: center;
+          background-repeat: no-repeat;
+          background-position: 50% 50%;
+        }
+        .justificado{
+          text-align: justify;
+          color: gainsboro;
+        }
+
+    </style>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+</head>
+<body class="fondo gameover">
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">J Z - C O R P</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Novedades
+                </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Juegos
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item">2D</a></li>
+                  <li><a class="dropdown-item" href="juego1.html">Zombie defense </a></li>
+                  <li><a class="dropdown-item" href="juego2.html">Tower defense recovery of the city</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item">3D</a></li>
+                  <li><a class="dropdown-item" href="juego3.html">The Last One</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="acercaDe.html" tabindex="-1">Acerca de nosotros</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Juegos" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <h1>Juego</h1>
+      <a>Zombie Defense</a>
+      <h2>Descripcion</h2>
+      <div class="container"><a>Descripcion: Zombie defence es un juego 2d para escritorio y moviles que se compone de un nivel donde puedes comprar, editar y vender torres para defender la ciudad de los zombies.
+        Es un juego de estrategia y retro donde su modalidad de juego es con el raton dando click donde quieras poner tu torre: </a>
+        <a>Existen 3 clases de torres, el castillo imperial, alto y con una largo rango de vision, los proyectiles son rapidos y con daño medio, especialidad matar zombies.</a>
+        <a>el castillo prioritario , es un castillo que cambia de objetivo al que tenga mas cerca y sus ataques son mas lentos, pero con un daño muy devastador, especialidad matar zombies rapidos.</a>
+        <a>el castillo de alado, es un castillo que cuenta con un rango muy corto, pero lo compenza con proyectiles muy rapidos y con un daño alto, especialidad aniquilar zombies.</a>
+      </div>
+      
+      <h3><img src="ZombieDefense.png" class="rounded mx-auto d-block" alt="Responsive image" style="width: 500px; height: 500px;"><h3>
+      <button type="button" class="btn btn-dark" onclick="window.location='https://store.steampowered.com/?l=spanish'">Comprar ahora</button>
+</body>
+<footer class="text-center text-white" style="background-color: rgba(0, 0, 0, 0.2)">
+  <hr>
+  <div class="container p-4 pb-0">
+    <section class="mb-4">
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #3b5998;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-facebook-f">Facebook</i
+      ></a>
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #55acee;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-twitter">Twitter</i
+      ></a>
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #dd4b39;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-google">Google</i
+      ></a>
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #ac2bac;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-instagram">Instagram</i
+      ></a>
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #0082ca;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-linkedin-in">Linkedin</i
+      ></a>
+      <a
+        class="btn btn-primary btn-floating m-1"
+        style="background-color: #333333;"
+        href="#!"
+        role="button"
+        ><i class="fab fa-github">Github</i
+      ></a>
+    </section>
+  </div>
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2); color: #000;">
+    © 2021 JZ-CORP:
+    <a href="https://mdbootstrap.com/">Marketing Online</a>
+  </div>
+</footer>
+</html>
